@@ -34,11 +34,11 @@ class ListNode:
         self.next = None
 
 class LinkedList:
-    def __init__(self, val)
+    def __init__(self, val):
         self.head = None
         self.tail = None
     
-    def add_node(self, val)
+    def add_node(self, val):
         if not isinstance(val, ListNode):
             val = ListNode(val)
 
